@@ -1,7 +1,7 @@
 const Hello = (props) => {
     return(
         <>
-        <hello name={props.name}>Hello, {props.name}</hello>
+        <div name={props.name}>Hello, {props.name}</div>
         </>
     );
 }

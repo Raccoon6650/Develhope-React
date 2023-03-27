@@ -6,9 +6,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Hello name="Nino!"> </Hello>
-        <Hello name="Mario!"> </Hello>
-        <Hello name="Team!"> </Hello>
+        <Hello name="Nino!"/>
+        <Hello name="Mario!"/>
+        <Hello name="Team!"/>
       </header>
     </div>
   );

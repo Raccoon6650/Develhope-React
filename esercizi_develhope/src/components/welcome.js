@@ -2,12 +2,14 @@ const Welcome = (props) => {
     return(
         <>
         <p>Welcome, {props.name}</p>
+        <p>Your age is {props.age}</p>
         </>
     );
 }
 
 Welcome.defaultProps = {
-    name: "You"
+    name: "You",
+    age: 0
 }
 
 export default Welcome;

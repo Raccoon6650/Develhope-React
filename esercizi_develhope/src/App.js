@@ -1,12 +1,16 @@
 //import logo from './logo.svg';
 import './App.css';
 import Hello from './components/hello';
+import Message from './components/Message';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Hello> </Hello>
+        <>
+        <Hello/>
+        <Message message="Messaggio modificato"/>
+        </>
       </header>
     </div>
   );

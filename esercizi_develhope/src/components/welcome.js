@@ -6,6 +6,10 @@ const Welcome = (props) => {
     );
 }
 
+Welcome.defaultProps = {
+    name: "You"
+}
+
 export default Welcome;
 
 

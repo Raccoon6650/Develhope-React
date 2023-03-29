@@ -3,6 +3,7 @@ import './App.css';
 import Welcome from './components/welcome';
 
 const name = <strong>Scoiattolo</strong>
+const age = 20
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <header className="App-header">
         <>
           <Welcome/>
-          <Welcome name={name} age= {2} />
+          <Welcome name={name} age= {age}/>
+         
         </>
       </header>
     </div>

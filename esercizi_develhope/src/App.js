@@ -2,13 +2,15 @@
 import './App.css';
 import Welcome from './components/welcome';
 
+const name = <strong>Scoiattolo</strong>
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <>
           <Welcome/>
-          <Welcome name="Pinguino!" age= {18} />
+          <Welcome name={name} age= {2} />
         </>
       </header>
     </div>

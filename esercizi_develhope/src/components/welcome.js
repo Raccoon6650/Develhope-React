@@ -4,13 +4,14 @@ const Welcome = (props) => {
   return (
     <>
       <p>Welcome, {props.name}</p>
-      {props.age !== undefined ? <Age age={props.age} /> : null}
+      {props.age > 18 && props.age < 65 ? <Age age={props.age} /> : null}
     </>
   );
 };
 
 Welcome.defaultProps = {
   name: "You",
+  age: 70
   
 };
 

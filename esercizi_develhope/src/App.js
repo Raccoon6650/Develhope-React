@@ -4,8 +4,8 @@ import Welcome from './components/welcome';
 
 const name = <strong>Scoiattolo</strong>
 const age = 20
-const name2 = "Nome!"
-const age2 = 2
+const name2 = "John"
+const age2 = 30
 
 function App() {
   return (

@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
 
-const CounterT = function Counter() {
-  const [count, setCount] = useState(0);
+const CounterT = function Counter(props) {
+  const [count, setCount] = useState(props.base);
 
   useEffect(() => {
     const timer = setInterval(() => {
       setCount((prevCount) => prevCount + 1);
-    }, 1000);
+    }, props.time);
 
     return () => clearInterval(timer);
-  }, []);
+  }, [props.time]);
 
   return (
     <>
@@ -17,5 +17,11 @@ const CounterT = function Counter() {
     </>
   );
 };
+
+CounterT.defaultProps = {
+    base: 0,
+    time: 1000
+
+}
 
 export default CounterT;

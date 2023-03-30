@@ -1,8 +1,6 @@
 //import logo from './logo.svg';
 import './App.css';
-import Welcome from './components/welcome';
-import Counter from './components/counter';
-import CounterT from './components/counter_Timer';
+import CounterT from './components/counter';
 
 const time = 100;
 const base = 5

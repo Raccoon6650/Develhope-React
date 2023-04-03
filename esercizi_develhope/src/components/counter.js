@@ -60,3 +60,4 @@ CounterT.defaultProps = {
 export default CounterT;
 
 //Il costruttore non è più necessario in questo caso
+//Tale sintassi, tra l'altro, è valida solo per React gestito a classi.
